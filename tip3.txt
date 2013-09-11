@@ -1,0 +1,18 @@
+Setting Up Git And GitHub For The First Time
+
+First, you’ll need to sign up for an account on GitHub.com. It’s as simple as signing up for any 
+other social network. Keep the email you picked handy; we’ll be referencing it again soon. 
+
+Next, since GitHub is simply a tool that makes Git easier to use, it doesn’t work without Git installed. You can install Git for Windows, Mac, or Linux.
+
+Now it’s time to go over to the command line. On Windows, that means accessing the Git Bash app you just installed, and on Mac, it’s regular old Terminal. It’s time to introduce yourself to Git. Type in the following code:
+
+git config —global user.name "Your Name Here"
+
+Of course, you’ll need to replace “Your Name Here” with your own name in quotations. It can be your legal name, your online handle, anything. Git doesn’t care, it just needs to know to whom to credit future projects.
+
+Next, tell it your email and make sure it’s the same email you used when you signed up for a GitHub.com account just a moment ago. Do it like this: 
+
+git config —global user.email "your_email@youremail.com"
+
+That’s all you need to do to get started using Git on your computer. However, since you did set up a GitHub.com account, it’s likely you don’t just want to manage your project locally, but also online. If you want you can also set up Git so it doesn’t ask you to log in to your GitHub.com account every time you want to talk to it. For the purposes of this tutorial, it isn’t a big deal since we’ll only be talking to it once. The full tutorial to do this, however, is located on GitHub.
