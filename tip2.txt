@@ -1,0 +1,13 @@
+Resources
+
+http://git-scm.com/book — Entire open source book on Git
+
+http://www.codeschool.com/courses/try-git — First chapter for free
+
+http://www.youtube.com/GitHubGuides — If you’re a visual learner
+
+http://git-scm.com/documentation — Git’s own beginner tutorial
+
+http://gitref.org/ — Great for glossary reference
+
+http://rogerdudler.github.io/git-guide — Short but sweet
