@@ -1,0 +1,27 @@
+Creating Your Local Repository
+
+So we just made a space for your project to live online, but that’s not where you’ll be working on it. The bulk of your work is going to be done on your computer. So we need to actually mirror that repository we just made as a local directory. 
+
+This—where we do some heavy command line typing—is the part of every Git tutorial that really trips me up, so I’m going to go tediously, intelligence-insultingly slow. 
+
+First type:
+
+mkdir ~/MyProject
+
+“Mkdir” is short for Make Directory. It’s not actually a Git command, but a general navigational command from the time before visual computer interfaces. The “~/” ensures that we’re building the repository at the top level of your computer’s file structure, instead of stuck inside something else. Actually, if you type ~/ into your browser window, it’ll bring up your local computer’s top level directory. For me, using Chrome on a Mac, it shows up as my Users folder. 
+
+Also, notice that I called it MyProject, the very same name I called my GitHub repository that we made earlier. Keep your name consistent, too. 
+
+Next, type:
+
+cd ~/MyProject
+
+“Cd” stands for Change Directory, and it’s also a general command. We just made a directory, and now we want to switch over to that directory and go inside it. Once we type this command, we are transported inside MyProject. 
+
+Now we’re finally using a Git command. For your next line, type:
+
+git init
+
+You know you’re using a Git command because it always begins with “git.” “Init” stands for “initialize.” Remember how the previous two commands we typed were general command line terms? When we type this code in, it tells the computer to recognize this directory as a local Git repository. It now realizes this directory is different, and you can start inputting Git commands. Now you’ve got both an online and a local repo for your project to live inside. 
+
+“Wait, we never connected my online repository to my local repository,” you might be thinking, and you’re right. In fact, your local repository and your online one are only going to be connecting for short bursts, when you’re confirming project additions and changes. Let’s move on to making your first connection now. 

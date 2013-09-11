@@ -1,0 +1,9 @@
+Creating Your Online Repository
+
+Now that you’re all set up, it’s time to create a place for your project to live. Both Git and GitHub refer to this as a repository or “repo” for short, a digital directory or storage space where you can access your project, its files, and all the versions of its files that Git saves. 
+
+Go back to GitHub.com and click the tiny book icon next to your username. Or, go to https://github.com/new if all the icons look the same. Give your repository a short, memorable name. Go ahead and make it public just for kicks; why hide your attempt to learn GitHub? 
+
+Don’t worry about clicking the check box next to “Initialize this repository with a README.” A Readme file is usually a text file that explains a bit about the project. But we can make our own Readme file locally for practice. 
+
+Click the green “Create Repository” button and you’re set. You now have an online space for your project to live in. 
