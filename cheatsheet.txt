@@ -1,0 +1,39 @@
+#### common git commands for the terminal (OS X) ####
+
+
+
+## git init creates a new repository 
+>> git init
+
+## this creates a sub-directory with git inside an existing directory
+>> git init existing_directory/new_dir
+
+## shows the status of things within the directory being tracked. 
+>> git status
+
+## displays a log of changes to the repository 
+>> git log
+
+## clone a project on your system from github
+>> git clone <URL FROM GITHUB>
+
+## add a file to be tracked using git
+>> git add <NAME OF FILE TO TRACK>
+
+## creates a copy of the master branch called <branch_name>
+>> git branch <branch_name>
+
+## switches to branch_name as the branch you are working on
+>> git checkout <branch_name>
+
+## switches branch to master
+>> git checkout master
+
+## displays the existing branches for the particular repository
+>> git branch -a
+
+## commits changes with the message you enter
+>> git commit -m "enter your message"
+
+## pushes the changes up to github
+>> git push -u origin branch_name
