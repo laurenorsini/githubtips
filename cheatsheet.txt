@@ -1,5 +1,39 @@
-Sed sit amet odio sit amet sapien tempor lobortis in quis mauris. Mauris lobortis mauris congue neque adipiscing in varius purus rhoncus. Morbi et lectus a urna pellentesque adipiscing ut sed metus. Aenean malesuada scelerisque interdum. Proin quis dictum turpis. Aliquam erat volutpat. Aliquam vitae ante non lorem imperdiet semper id sollicitudin magna. Nam semper ultricies suscipit. Nulla venenatis consequat dapibus. Curabitur non eros neque, vel feugiat ipsum.
+#### common git commands for the terminal (OS X) ####
 
-Nulla risus erat, ultricies vitae egestas in, tempor sed libero. Suspendisse dui augue, adipiscing sit amet lobortis vel, semper quis turpis. Pellentesque tortor turpis, tempus vel tempor interdum, mattis non tellus. Maecenas rutrum interdum risus, sit amet blandit sapien posuere a. In quis lorem quis eros semper lobortis eu et quam. Integer leo ante, pulvinar eget mollis et, blandit eget mi. Nam sit amet nulla quis arcu ultricies imperdiet. Aliquam consectetur dictum suscipit. Maecenas ligula leo, accumsan a laoreet et, porta ut magna. Nullam vestibulum, velit quis convallis convallis, ligula urna sollicitudin felis, eget blandit nunc nunc in odio. In vitae nibh diam. Donec eget sem sapien, vel mollis urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam tempus accumsan mi, et ornare urna condimentum in. Suspendisse eleifend auctor tincidunt. Phasellus hendrerit fringilla elit, quis tempus erat blandit nec.
 
-Praesent dignissim scelerisque erat, dapibus sagittis ante egestas id. Integer facilisis, quam vestibulum ullamcorper interdum, lectus massa consequat nulla, quis placerat orci quam eu nibh. Nunc commodo est sed enim porttitor a varius enim ultrices. Phasellus facilisis posuere purus, sed accumsan nibh eleifend et. Quisque luctus semper mi a suscipit. Suspendisse tempus placerat urna, vitae vehicula nisi ornare nec. Proin at elit a eros egestas mollis eu eu arcu. Vivamus eget mauris libero, eu pretium enim. Etiam augue massa, fermentum quis volutpat ac, gravida et ligula. Nullam et augue non mauris aliquet sodales. Vivamus feugiat convallis nisl eu rutrum.
+
+## git init creates a new repository 
+>> git init
+
+## this creates a sub-directory with git inside an existing directory
+>> git init existing_directory/new_dir
+
+## shows the status of things within the directory being tracked. 
+>> git status
+
+## displays a log of changes to the repository 
+>> git log
+
+## clone a project on your system from github
+>> git clone <URL FROM GITHUB>
+
+## add a file to be tracked using git
+>> git add <NAME OF FILE TO TRACK>
+
+## creates a copy of the master branch called <branch_name>
+>> git branch <branch_name>
+
+## switches to branch_name as the branch you are working on
+>> git checkout <branch_name>
+
+## switches branch to master
+>> git checkout master
+
+## displays the existing branches for the particular repository
+>> git branch -a
+
+## commits changes with the message you enter
+>> git commit -m "enter your message"
+
+## pushes the changes up to github
+>> git push -u origin branch_name
